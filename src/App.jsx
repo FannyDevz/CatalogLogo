@@ -84,7 +84,7 @@ function App() {
                 EN : "47"
             },
             time: "5-6",
-            bonus: "2 AddOns",
+            bonus: null,
             discount: {
                 ID : null,
                 EN : null
@@ -95,36 +95,36 @@ function App() {
             },
             class: " border border-b "
         },
-        {
-            id: 4,
-            name: {
-                ID: "Add-Ons",
-                EN: "Add-Ons"
-            },
-            currency: {
-                ID : "IDR",
-                EN : "USD"
-            },
-            symbol: {
-                ID : "Rp",
-                EN : "$"
-            },
-            price: {
-                ID : "150.000",
-                EN : "14"
-            },
-            time: "3-5",
-            bonus: null,
-            discount: {
-                ID : null,
-                EN : null
-            },
-            desc: {
-                ID: "Kartu Nama, Amplop Besar & CD Cover, Stop Map, ID Card, Goodie Bag, Stample (Anda bisa memilih 6 item)",
-                EN: "Business Card, Large Envelope & CD Cover, Stop Map, ID Card, Goodie Bag, Stample (You can choose 6 items)"
-            },
-            class: " border rounded-e-lg "
-        }
+        // {
+        //     id: 4,
+        //     name: {
+        //         ID: "Add-Ons",
+        //         EN: "Add-Ons"
+        //     },
+        //     currency: {
+        //         ID : "IDR",
+        //         EN : "USD"
+        //     },
+        //     symbol: {
+        //         ID : "Rp",
+        //         EN : "$"
+        //     },
+        //     price: {
+        //         ID : "150.000",
+        //         EN : "14"
+        //     },
+        //     time: "3-5",
+        //     bonus: null,
+        //     discount: {
+        //         ID : null,
+        //         EN : null
+        //     },
+        //     desc: {
+        //         ID: "Kartu Nama, Amplop Besar & CD Cover, Stop Map, ID Card, Goodie Bag, Stample (Anda bisa memilih 6 item)",
+        //         EN: "Business Card, Large Envelope & CD Cover, Stop Map, ID Card, Goodie Bag, Stample (You can choose 6 items)"
+        //     },
+        //     class: " border rounded-e-lg "
+        // }
     ];
     const text  = {
         title : {
