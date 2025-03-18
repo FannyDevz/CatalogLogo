@@ -247,7 +247,7 @@ function App() {
                                 <div className="inline-flex rounded-md shadow-sm mt-8" role="group">
                                     {
                                         packageProduct.map((item) => (
-                                            <button key = {item.id} type="button" onClick={() => setProduct(item.id)} className={`px-4 py-2 text-md md:text-xl font-bold text-gray-900 bg-white border-gray-200 text-indigo  hover:bg-gray-100  focus:z-10 focus:ring-2  dark:bg-gray-800 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-700  dark:focus:text-white ${item.class} ${product === item.id ? "bg-indigo-500 text-white dark:bg-indigo-500 dark:text-white" : ""}`}>
+                                            <button key = {item.id} type="button" onClick={() => setProduct(item.id)} className={`px-4 py-2 text-md md:text-xl font-bold text-black bg-white border-gray-200   hover:bg-gray-100  focus:z-10 focus:ring-2  dark:bg-gray-800 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-700  dark:focus:text-white ${item.class} ${product === item.id ? "bg-indigo-500 text-white dark:bg-indigo-500 dark:text-white" : ""}`}>
                                                 {item.name[lang]}
                                             </button>
                                         ))
