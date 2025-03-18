@@ -281,7 +281,7 @@ function App() {
                                             }
                                             <div className="mt-6">
                                                 <div className="rounded-md shadow">
-                                                    <a href={`${text.wa[lang]}${item.name[lang]}%20Package`} target="_blank" className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md bg-indigo-500 hover:bg-indigo-600">{text.order[lang]}</a>
+                                                    <a href={`${text.wa[lang]}${item.name[lang]}%20Package`} target="_blank" className="flex items-center text-gray-50 justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md bg-indigo-500 hover:bg-indigo-600">{text.order[lang]}</a>
                                                 </div>
                                             </div>
                                             {/*<p className="dark:text-gray-300 text-gray-700 text-sm mt-3">100% money back guarantee</p>*/}

@@ -27,11 +27,11 @@ function Nav( { handleClick , icon , toggleLanguage ,lang}) {
                         </button>
                     </div>
                     <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                        <div className="flex flex-shrink-0 items-center">
-                            <img className="h-8 w-auto"
-                                 src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                                 alt="Your Company"/>
-                        </div>
+                        {/*<div className="flex flex-shrink-0 items-center">*/}
+                        {/*    <img className="h-8 w-auto"*/}
+                        {/*         src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"*/}
+                        {/*         alt="Your Company"/>*/}
+                        {/*</div>*/}
                         <div className="hidden sm:ml-6 sm:block">
                             <div className="flex space-x-4">
                                 <a href="#top" className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
